@@ -1,0 +1,111 @@
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #000 url('https://i0.wp.com/media.boingboing.net/wp-content/uploads/2015/10/pJReN4H1.gif?w=970')no-repeat center;
+  /* background: #000 url('https://i.gifer.com/f95.gif')no-repeat center; */
+  z-index: 99999;
+}
+body{
+  margin: 0;
+  padding: 0;
+  /* background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/047668fb-fcf5-4f67-8225-d13cc4435f67/dbr7mbn-664b61bf-39a9-4edc-b47a-bd5d975ca0c0.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA0NzY2OGZiLWZjZjUtNGY2Ny04MjI1LWQxM2NjNDQzNWY2N1wvZGJyN21ibi02NjRiNjFiZi0zOWE5LTRlZGMtYjQ3YS1iZDVkOTc1Y2EwYzAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._lF4gYa5fF4CNcqDs8EA8IB147A_X0BxziEbqxDMMPY") no-repeat; */
+  background: url("https://hdqwalls.com/wallpapers/firewatch-4k-17.jpg") no-repeat;
+  background-size: cover;
+}
+
+.box{
+  width: 450px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  border-color: black;
+}
+.box-img{
+  width: 150px;
+  height: 200px;
+  border: 13px outset #1C6EA4;
+border-radius: 40px 40px 40px 40px;
+}
+.box h1{
+  font-size: 60px;
+  font-weight: 600;
+  text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+    margin-top: 5%;
+}
+
+.box h5{
+  font-size: 40px;
+  font-weight: 100;
+  margin-top: 40%;
+  text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+.box p{
+  text-align: center;
+  font-size: 30px;
+}
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+.button{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-weight: 600;
+}
+.btn{
+  border: 3px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 0.7s ease;
+  text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+.btn:hover{
+  background-color: #000;
+  color: #fff;
+}

@@ -1,0 +1,188 @@
+* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		font-family: Montserrat, sans-serif;
+	}
+	#loading{
+	  position: fixed;
+	  width: 100%;
+	  height: 100vh;
+	  background: #000 url('https://i0.wp.com/media.boingboing.net/wp-content/uploads/2015/10/pJReN4H1.gif?w=970')no-repeat center;
+	  /* background: #676E81 url('http://33.media.tumblr.com/ff126c288d8b5fdebebcbdd437c22bff/tumblr_ndypsfVbG81shpedgo1_250.gif')no-repeat center; */
+
+	  /* background: #000 url('https://i.gifer.com/f95.gif')no-repeat center; */
+	  z-index: 99999;
+	  /* transition:5s ease; */
+	}
+a:link {
+color: #000;
+}
+a:hover {
+color: #000;
+}
+a:visited {
+color: #fff;
+}
+	.background-wrap {
+		position: fixed;
+		z-index: -1000;
+	 width: 100%;
+		height: 100%;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+	}
+	.footer {
+	position: fixed;
+  left: 0;
+	font-size: 20px;
+  bottom: 5%;
+  width: 100%;
+  color: white;
+  text-align: center;
+	text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+	}
+.wrapper {
+	position: fixed;
+  left: 0;
+  bottom: 16%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#video-bg-elem {
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-height: 100%;
+		min-width: 100%;
+	}
+	.content {
+		position: absolute;
+		text-align: center;
+	  /* min-height: 5%; */
+		/* background-color: rgba(0,0,0,7); */
+		top: 16%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 100%;
+	}
+	.content h1 {
+		font-size: 65px;
+		text-align: center;
+		font-weight: 600;
+		color: #fff;
+		padding-top: 12%;
+		margin-bottom: 30px;
+		animation: text 1.6s 1;
+		display: block;
+		position: relative;
+		background: black;
+	}
+
+	@keyframes text {
+		0%{
+			color: black;
+			margin-bottom: -40px;
+		}
+		30%{
+			letter-spacing: 25px;
+			margin-bottom: -40px;
+		}
+		85%{
+			letter-spacing: 8px;
+			margin-bottom: -40px;
+		}
+	}
+	.content p {
+		text-align: center;
+		font-size: 30px;
+		font-weight: 200px;
+		letter-spacing: 3px;
+		color: #fff;
+		text-shadow:
+			/* Outline */
+			-1px -1px 0 #000000,
+			1px -1px 0 #000000,
+			-1px 1px 0 #000000,
+			1px 1px 0 #000000,
+			-2px 0 0 #000000,
+			2px 0 0 #000000,
+			0 2px 0 #000000,
+			0 -2px 0 #000000;
+	}
+
+	.button{
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		font-weight: 600;
+	}
+	.btn{
+		border: 3px solid #000;
+		padding: 10px 30px;
+		color: #fff;
+		font-size: 25px;
+		text-decoration: none;
+		transition: 0.7s ease;
+		text-shadow:
+	    /* Outline */
+	    -1px -1px 0 #000000,
+	    1px -1px 0 #000000,
+	    -1px 1px 0 #000000,
+	    1px 1px 0 #000000,
+	    -2px 0 0 #000000,
+	    2px 0 0 #000000,
+	    0 2px 0 #000000,
+	    0 -2px 0 #000000;
+	}
+	.btn:hover{
+		background-color: #000;
+		color: #fff;
+	}
+
+.media{
+	position: absolute;
+	top: 80%;
+	left: 51%;
+	transform: translate(-53%,-50%);
+}
+	li{
+		list-style: none;
+		margin: 10px 30px;
+		display: inline-block;
+		font-size: 40px;
+		padding: 20px 20px;
+		color: white;
+		transition: .5s;
+		text-shadow:
+	    /* Outline */
+	    -1px -1px 0 #000000,
+	    1px -1px 0 #000000,
+	    -1px 1px 0 #000000,
+	    1px 1px 0 #000000,
+	    -2px 0 0 #000000,
+	    2px 0 0 #000000,
+	    0 2px 0 #000000,
+	    0 -2px 0 #000000;
+	}
+
+	li:hover {
+		color: black;
+		transform: scale(1.5,1.5);
+		/* border: solid #292929; */
+		/* border-radius: 10% 10% / 10% 10%; */
+		transition: .4s;
+	}

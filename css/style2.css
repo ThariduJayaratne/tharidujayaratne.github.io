@@ -1,0 +1,422 @@
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #000 url('https://i0.wp.com/media.boingboing.net/wp-content/uploads/2015/10/pJReN4H1.gif?w=970')no-repeat center;
+  /* background: #676E81 url('http://33.media.tumblr.com/ff126c288d8b5fdebebcbdd437c22bff/tumblr_ndypsfVbG81shpedgo1_250.gif')no-repeat center; */
+
+  /* background: #000 url('https://i.gifer.com/f95.gif')no-repeat center; */
+  z-index: 99999;
+  /* transition:5s ease; */
+}
+/* #particles-js{
+  height: 100%;
+  background: #262626;
+} */
+body{
+  font-family: Montserrat, sans-serif;
+}
+/* #wrapper {
+  opacity:0;
+ } */
+h1{
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.box{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.box span{
+  display: block;
+  width: 30px;
+  height:30px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+/* .myBtn{
+  text-align: center;
+  font-size: 25px;
+  font-family: Montserrat;
+  margin-bottom: 40%;
+} */
+.box span:nth-child(1)
+{
+  animation-delay: -0.2s;
+}
+.box span:nth-child(2)
+{
+  animation-delay: -0.4s;
+
+}
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+.media{
+	position: absolute;
+	top: 80%;
+	left: 51%;
+	transform: translate(-53%,-50%);
+}
+.wrapper {
+	position: fixed;
+  left: 0;
+  bottom: 16%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+@keyframes animate {
+  0%
+  {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+
+  }
+  50%
+  {
+    opacity:1;
+  }
+  100%
+  {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px,20px);
+
+  }
+}
+
+.s0
+{
+  /* background:url("http://45.media.tumblr.com/7a1e9e35c23208b718e44486d0774cd4/tumblr_nzp2ihdk9H1ukofkbo1_r4_500.gif"); */
+  /* background: url("https://media.giphy.com/media/uBTWyINWTrWz6/giphy.gif"); */
+  background: url("https://media0.giphy.com/media/pHZ8BBgLaXPliFNudh/source.gif");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+}
+.s0 h1{
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  margin-bottom: 10%;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+.s1
+{
+  /* background:url("https://miro.medium.com/max/4778/1*q8HNVIql60d46VWjI5i2CQ.gif"); */
+  /* background:url("https://attendify.com/blog/wp-content/uploads/2018/02/sentiment-analysis.gif"); */
+  background:url("https://thumbs.gfycat.com/ForsakenPoisedEasternglasslizard-small.gif");
+  background-size: cover;
+  background-position: center;
+}
+.s1 h1{
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  top: 5;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+.s1 p{
+  text-align: left;
+  margin-left: 5%;
+  font-size: 30px;
+  line-height: 50px;
+  color: white;
+  margin-bottom: 25%;
+  font-weight: 600;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+ #more {
+  display: none;
+  background-color: inherit;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+}
+.btn{
+  border: 3px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 0.7s ease;
+  text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+.btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+.btn2{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.7s ease;
+}
+.btn2:hover{
+  color: #A9A9A9;
+}
+li:hover {
+  color: black;
+  transform: scale(1.5,1.5);
+  /* border: solid #292929; */
+  /* border-radius: 10% 10% / 10% 10%; */
+  transition: .4s;
+}
+
+.s2
+{
+  /* background: url('https://images.pexels.com/photos/51947/tuscany-grape-field-nature-51947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+  background: url('https://media0.giphy.com/media/pzGIuR1UeI2oFhyqP1/source.gif');
+
+  background-size: cover;
+  background-position: center;
+}
+.s2 h1{
+  position: absolute;
+  line-height:400px;
+  color: white;
+  text-align: left;
+  font-size: 90px;
+  /* font-weight: 300;  */
+  /* margin-bottom: 25%; */
+  margin-left: 5%;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+.s2 p{
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-top: 25%;
+  line-height: 50px;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+  }
+
+.s3
+{
+  background: url('https://jonathanfrech.files.wordpress.com/2016/02/conways-game-of-life-1.gif');
+  background-size: cover;
+  background-position: center;
+}
+.s3 h1{
+  position: absolute;
+  line-height:200px;
+  color: white;
+  text-align: left;
+  font-size: 90px;
+  /* font-weight: 300;  */
+  /* margin-bottom: 25%; */
+  margin-left: 5%;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+  /* color: white;
+  position: relative;
+  text-align: left;
+  font-size: 70px;
+  margin-left: 5%;
+  line-height:200px; */
+
+}
+.s3 p{
+  /* color: white;
+  text-align: left;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-top: 1%;
+  line-height: 50px; */
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-top: 25%;
+  line-height: 50px;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+  }
+
+.s4
+{
+  background: url('https://images.pexels.com/photos/776654/pexels-photo-776654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  /* background: url('https://images.pexels.com/photos/776654/pexels-photo-776654.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); */
+  background-size: cover;
+  background-position: center;
+}
+.s4 h1{
+  color: white;
+  text-align: left;
+  font-size: 70px;
+  /* font-weight: 300;  */
+  line-height:200px;
+  margin-left: 5%;
+  text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+.s4 p{
+  color: white;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 0.01%;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.s5
+{
+  background: url('http://i.imgur.com/MvMxQ1a.gif');
+  background-size: cover;
+  background-position: right;
+}
+.s5 h1 {
+  text-align: left;
+  font-size: 90px;
+  /* font-weight: 300;  */
+  /* line-height:300px; */
+  margin-top: 1%;
+  margin-left: 5%;
+  line-height: 120px;
+  text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+.s5 p{
+  color: white;
+  text-align: left;
+  margin-left: 5%;
+  top: 10;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+  text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+span {
+  background: white !important;
+}
+.fp.slideNav.fp.bottom {
+	 margin-left: 1em !important;
+}

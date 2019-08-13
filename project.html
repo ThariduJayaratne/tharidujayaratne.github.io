@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tharidu Jayaratne</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link media="all" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+      src="https://code.jquery.com/jquery-2.1.4.js"
+      integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4="
+      crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body onload="myFunction()">
+  <div id="loading"></div>
+    <div id="fullpage">
+      <div class="section s0">
+        <h1>Projects</h1>
+    		<div class="button">
+    			<a href= "index.html" class="btn"><i class = "fa fa-home"></i> Home</a>
+    			<a href= "about.html" class="btn"> <i class = "fa fa-user"></i>  About</a>
+    		</div>
+        <div class="box">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        </div>
+        <div class="section s2">
+          <h1>Wine Classifier</h1>
+          <div class="slide">
+          <p> As part of a Year 2 Coursework, My colleage and I were assigned a task to classify a set of wine samples into a certain number of classes. We ﬁrst extract discriminative features from the wine data samples, then built a classiﬁer with diffrent algorithms such as Naive Bayes, K-Nearest Neighbours and PCA that uses such features to recognise what class a given sample belongs to. Click the button on the left to read more about it :)</p>
+        </div>
+        <div class="slide">
+        <p>This dataset consists of 178 samples, each corresponding to a wine. Each wine is produced in the same region in Italy, and each wine derives from one of three diﬀerent cultivars (or type of plant). We will treat the three diﬀerent cultivars as classes. Each sample contains 13 features/dimensions, corresponding to a chemical constituent of the wine. The source code can be found <a href= "https://github.com/ThariduJayaratne/Wine_classifier" class="btn2">here</a>.
+        </p>
+      </div>
+        </div>
+      <div class="section s1">
+        <h1>Sentiment Analysis</h1>
+        <div class="slide">
+        <p>Ghyston, a bespoke software development company based in Bristol uses a range of open source tools including languages, libraries and frameworks, for developing software. The problem they face is determining which pieces of software to use. One metric used when deciding is their popularity, since this tells them if other users experiences with the software were positive or negative. Sites such as GitHub have existing ratings which can be used to rank the most starred repositories, but this does not tell the whole story. Click the button on the left to read more about it and try out our application :)</p>
+        </div>
+        <div class="slide">
+          <p>Me and three other students created techsentiment.com(lef) to ease this problem. The application looks for posts on social media about a particular piece of software and extracts a sentiment value from them. An aggregate sentiment of the posts would be extremely useful in social media monitoring as it allows us to gain a better synopsis of the wider public opinion behind certain topics in software and provide an open source project's real value in the eyes of the developer community and help our client in choosing which software to use in their projects. Source code can be found  <a href= "https://github.com/BenJamesPrice/COMS20805-SentimentAnalysis" class="btn2">here</a> .</p>
+        </div>
+          <div class="slide">
+            <div id="contentframe"  style="position:relative; left: 170px; margin-bottom: 40%">
+              <iframe style="width:1000px; height:500px;" src="https://www.techsentiment.com/search"></iframe>
+            </div>
+      </div>
+      <!-- <div id="particles-js"></div>
+      <script type="text/javascript" src="particles.js"></script>
+      <script type="text/javascript" src="app.js"></script> -->
+      </div>
+
+      <div class="section s3">
+        <h1>Conway's Game of Life</h1>
+        <div class="slide">
+        <p>My teammate and I designed and implemented a concurrent multi-threaded program which simulates British mathematician John Horton Conway's cellular automaton game named ‘The Game of Life’,on XMOS's xCore-200 Explorer board. The game was developed in a XC, a parallel programming language. Click the button on the left to read more about it :)</p>
+      </div>
+      <div class="slide">
+      <p>We divided the computation of different tasks and split the grid (based on the number of workers), by implementing a “message passing model
+ “, through exchanging messages in different channels, to prevent easily parallelizable tasks. We used a Hard Channel to communicate between our distributor and our worker threads and a Soft Channel to exchange information between our LEDs, Buttons, Orientation, I/O streams to the distributor. Source code can be found <a href= "https://github.com/ThariduJayaratne/GameOfLife" class="btn2">here</a>.</p>
+      </div>
+    </div>
+      <div class="section s4">
+        <h1>Scotland Yard Game</h1>
+        <p>The aim of this pair programming project was to implement the mechanics of a working model of the
+Scotland Yard Board game. Our main objective was to implement a Java class, which models the game mechanics of "Scotland Yard" within a given software framework. The development of the games's mechanics consisted of 124 tests. Source code can be found <a href= "https://github.com/svntosneto/Java/tree/master/cw-model" class="btn2">here</a>.</p>
+      </div>
+      <div class="section s5">
+        <h1>Kernel OS</h1>
+        <div class="slide">
+          <p> The overarching goal of this concurrent programming assignment was to develop an initially simple but then increasingly capable operating
+  system kernel using C and Assembly. It should execute and thus manage resources on a specific ARM-based target platform, namely a
+  RealView Platform Baseboard for Cortex-A8 emulated by QEMU2. Click the button on the left to read more about it :)</p>
+        </div>
+        <div class="slide">
+          <p> The kernel developed was based on the concept of cooperative multitasking: driven by regular invocation of the yield system call, it context switched between and
+    so concurrently executed a fixed number of user processes (that stemmed from statically linked
+    user programs). A special-purpose scheduling algorithm was used for the process control block and Interprocess communication was used to solve the dining philosiphers problem. Source code can be found <a href= "https://github.com/ThariduJayaratne/GameOfLife" class="btn2">here</a>.</p>
+        </div>
+      </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js" integrity="sha256-C19V3BEZT3jDhm7hctby8ZYhoXDJr0DxagpwB4RIpWc=" crossorigin="anonymous"></script>
+<script>
+  new fullpage('#fullpage', {
+    licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+  // autoScrolling:false,
+  scrollingSpeed: 500,
+     navigation:true,
+     anchors:['section0','section1', 'section2', 'section3','section4','section5'],
+     navigationTooltips:['Projects','Wine Classifier','Sentiment Analysis','Conways Game of Life','Scotland Yard Game','Kernel OS'],
+     controlArrows: false,
+     slidesNavigation: true,
+    showActiveTooltip:true});
+</script>
+
+<script>
+var preloader = document.getElementById('loading');
+function myFunction(){
+  preloader.style.display = 'none';
+}
+</script>
+</body>
+</html>
