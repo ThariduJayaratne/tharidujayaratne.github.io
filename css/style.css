@@ -166,6 +166,7 @@ color: #fff;
 		font-size: 40px;
 		padding: 20px 20px;
 		color: white;
+		text-decoration: none;
 		transition: .5s;
 		text-shadow:
 	    /* Outline */
@@ -180,7 +181,7 @@ color: #fff;
 	}
 
 	li:hover {
-		color: black;
+		color: white;
 		transform: scale(1.5,1.5);
 		/* border: solid #292929; */
 		/* border-radius: 10% 10% / 10% 10%; */
