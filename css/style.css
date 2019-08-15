@@ -4,6 +4,7 @@
 	}
 	body {
 		font-family: Montserrat, sans-serif;
+		color: white;
 	}
 	#loading{
 	  position: fixed;
@@ -129,28 +130,30 @@ color: #fff;
 		left: 50%;
 		transform: translate(-50%,-50%);
 		font-weight: 600;
+		color: white;
 	}
 	.btn{
 		border: 3px solid #000;
 		padding: 10px 30px;
-		color: #fff;
+		color: white;
 		font-size: 25px;
 		text-decoration: none;
 		transition: 0.7s ease;
 		text-shadow:
 	    /* Outline */
-	    -1px -1px 0 #000000,
-	    1px -1px 0 #000000,
-	    -1px 1px 0 #000000,
-	    1px 1px 0 #000000,
-	    -2px 0 0 #000000,
-	    2px 0 0 #000000,
-	    0 2px 0 #000000,
-	    0 -2px 0 #000000;
+	    -1px -1px 0 #fff,
+	    1px -1px 0 #fff,
+	    -1px 1px 0 #fff,
+	    1px 1px 0 #fff,
+	    -2px 0 0 #fff,
+	    2px 0 0 #fff,
+	    0 2px 0 #fff,
+	    0 -2px 0 #fff;
 	}
 	.btn:hover{
 		background-color: #000;
-		color: #fff;
+		color: #000;
+		text-decoration: none;
 	}
 
 .media{
@@ -158,6 +161,8 @@ color: #fff;
 	top: 80%;
 	left: 51%;
 	transform: translate(-53%,-50%);
+	color: white;
+	text-decoration: none;
 }
 	li{
 		list-style: none;
@@ -165,19 +170,19 @@ color: #fff;
 		display: inline-block;
 		font-size: 40px;
 		padding: 20px 20px;
-		color: white;
+		color: black;
 		text-decoration: none;
 		transition: .5s;
 		text-shadow:
 	    /* Outline */
-	    -1px -1px 0 #000000,
-	    1px -1px 0 #000000,
-	    -1px 1px 0 #000000,
-	    1px 1px 0 #000000,
-	    -2px 0 0 #000000,
-	    2px 0 0 #000000,
-	    0 2px 0 #000000,
-	    0 -2px 0 #000000;
+	    -1px -1px 0 #fff,
+	    1px -1px 0 #fff,
+	    -1px 1px 0 #fff,
+	    1px 1px 0 #fff,
+	    -2px 0 0 #fff,
+	    2px 0 0 #fff,
+	    0 2px 0 #fff,
+	    0 -2px 0 #fff;
 	}
 
 	li:hover {
