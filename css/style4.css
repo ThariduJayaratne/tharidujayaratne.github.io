@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background:url("https://www.wallsauce.com/uploads/wallsauce-com/images/products/web/anthony-bryant/large/urb_00139.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+.contact-title{
+  margin-top: 100px;
+  color: #fff;
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff,
+    -2px 0 0 #fff,
+    2px 0 0 #fff,
+    0 2px 0 #fff,
+    0 -2px 0 #fff;
+  transition: all 2s ease-in-out;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+
+
+.contact-title h2{
+  font-size: 60px;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+  color: white;
+}
+form{
+  margin-top: 50px;
+  transition: all 3s ease-in-out;
+}
+.form-control{
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+input{
+  height: 50px;
+}
+
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover{
+  background-color: #f44336;
+  transition: 0.7s ease;
+  cursor: pointer;
+}
