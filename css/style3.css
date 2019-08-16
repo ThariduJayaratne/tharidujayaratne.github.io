@@ -110,9 +110,6 @@ border-radius: 40px 40px 40px 40px;
   color: #fff;
 }
 .btn2{
-  color: #fff;
-  text-decoration: none;
-}
-.btn2:hover{
   color: #A9A9A9;
+  text-decoration: none;
 }
