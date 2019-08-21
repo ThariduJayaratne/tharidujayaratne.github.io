@@ -5,6 +5,7 @@
 	body {
 		font-family: Montserrat, sans-serif;
 		color: white;
+		background: url("https://www.barraques.cat/pngfile/big/14-148895_neon-city-wallpaper-neon-city-wallpaper-hd.jpg");
 	}
 	#loading{
 	  position: fixed;
@@ -62,13 +63,13 @@ color: #000;
   color: white;
   text-align: center;
 }
-#video-bg-elem {
+/* #video-bg-elem {
 		position: absolute;
 		top: 0;
 		left: 0;
 		min-height: 100%;
 		min-width: 100%;
-	}
+	} */
 	.content {
 		position: absolute;
 		text-align: center;
@@ -109,7 +110,7 @@ color: #000;
 	.content p {
 		text-align: center;
 		font-size: 30px;
-		font-weight: 200px;
+		font-weight: 600;
 		letter-spacing: 3px;
 		color: #fff;
 		text-shadow:
@@ -136,7 +137,7 @@ color: #000;
 		border: 3px solid #000;
 		padding: 10px 30px;
 		color: white;
-		font-size: 25px;
+		font-size: 30px;
 		text-decoration: none;
 		transition: 0.7s ease;
 		text-shadow:
@@ -172,7 +173,7 @@ color: #000;
 		list-style: none;
 		margin: 10px 30px;
 		display: inline-block;
-		font-size: 40px;
+		font-size: 55px;
 		padding: 20px 20px;
 		color: black;
 		text-decoration: none;
