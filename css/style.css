@@ -5,7 +5,8 @@
 	body {
 		font-family: Montserrat, sans-serif;
 		color: white;
-		background: url("https://www.barraques.cat/pngfile/big/14-148895_neon-city-wallpaper-neon-city-wallpaper-hd.jpg");
+		background: url("https://i.imgur.com/pnztT1T.gif");
+		background-size: cover;
 	}
 	#loading{
 	  position: fixed;
@@ -96,7 +97,7 @@ color: #000;
 	@keyframes text {
 		0%{
 			color: black;
-			margin-bottom: -40px;
+			margin-bottom: -80px;
 		}
 		30%{
 			letter-spacing: 25px;
@@ -104,7 +105,7 @@ color: #000;
 		}
 		85%{
 			letter-spacing: 8px;
-			margin-bottom: -40px;
+			margin-bottom: -70px;
 		}
 	}
 	.content p {
