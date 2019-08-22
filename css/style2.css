@@ -185,26 +185,33 @@ h1{
   font-family: Montserrat, sans-serif;
 }
 .btn{
-  border: 3px solid #fff;
+  border: 3px solid #000;
   padding: 10px 30px;
-  color: #fff;
+  color: #000;
+  background-color: white;
   font-size: 25px;
   text-decoration: none;
   transition: 0.7s ease;
-  text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
 }
 .btn:hover{
   background-color: #000;
   color: #fff;
+}
+.btn3{
+  border: 3px solid #000;
+  padding: 10px 30px;
+  color: #fff !important;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 0.7s ease;
+  background-color: black;
+}
+.btn3:hover{
+  background-color: #fff;
+  color: #000 !important;
+
+  text-decoration: none;
+  cursor:pointer;
 }
 .btn2{
   color: #fff;
