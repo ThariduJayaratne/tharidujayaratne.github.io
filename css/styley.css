@@ -6,9 +6,12 @@
   z-index: 99999;
 }
 
+*{
+  margin:0;
+  padding: 0;
+}
 body{
 width:100%;
-margin:0;
 overflow:hidden;
 background:hsla(0,0%,0%,1);
 font-family: Montserrat, sans-serif;
@@ -17,7 +20,7 @@ color: white;
 canvas{
   width:100%;
   height:100vh;
-  margin:0;
+  /* margin:0; */
   background:hsla(0,0%,0%,1);
 }
 a:link {
