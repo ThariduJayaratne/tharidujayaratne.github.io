@@ -1,6 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
-/*   Variables   */
-/*   End of Variables   */
+
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #000 url('https://i0.wp.com/media.boingboing.net/wp-content/uploads/2015/10/pJReN4H1.gif?w=970')no-repeat center;
+  z-index: 99999;
+}
+
 * {
 	padding: 0;
 	margin: 0;
